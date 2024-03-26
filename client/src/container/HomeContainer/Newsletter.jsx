@@ -88,7 +88,7 @@ function Newsletter() {
           />
           <input
             type="text"
-            placeholder="message"
+            placeholder="Message"
             value={formDetails.message}
             className={styles.newsletterInput}
             onChange={(e) => onFormUpdate("message", e.target.value)}

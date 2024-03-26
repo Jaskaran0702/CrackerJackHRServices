@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../../assets/images/hero.png";
+import heroImage from "../../assets/images/try5.png";
 import styles from "../../styles/Home/HeroSection.module.css";
 import { Link } from "react-scroll";
 function HeroSection() {
