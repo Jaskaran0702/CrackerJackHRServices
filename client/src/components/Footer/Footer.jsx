@@ -57,6 +57,7 @@ function Footer() {
                     smooth={true}
                     duration={700}
                     offset={-80}
+                    // className="footerLink"
                   >
                     About Us
                   </Link>
@@ -69,6 +70,7 @@ function Footer() {
                     smooth={true}
                     duration={700}
                     offset={-80}
+                    // className="footerLink"
                   >
                     Services
                   </Link>
@@ -81,6 +83,7 @@ function Footer() {
                     smooth={true}
                     duration={700}
                     offset={-80}
+                    // className="footerLink"
                   >
                     Portfolio
                   </Link>
@@ -93,6 +96,7 @@ function Footer() {
                     smooth={true}
                     duration={700}
                     offset={-80}
+                    // className="footerLink"
                   >
                    Testimonials
                   </Link>

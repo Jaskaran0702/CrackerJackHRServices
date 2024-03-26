@@ -28,7 +28,9 @@
   margin: 0 20px;
   text-align: left;
 }
-
+/* .footerLink:hover{
+  cursor: pointer;
+} */
 /* Footer title style */
 .footerTitle {
   font-size: 1.5rem;
@@ -78,6 +80,7 @@
 
 .footerLinks a:hover {
   color: #0074d9;
+  cursor: pointer;
 }
 
 /* Responsive styles for tablets */
@@ -111,3 +114,5 @@
     font-size: 1.2rem;
   }
 }
+
+

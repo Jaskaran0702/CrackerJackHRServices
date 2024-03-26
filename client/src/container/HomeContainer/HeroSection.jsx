@@ -19,7 +19,7 @@ function HeroSection() {
               offset={-80}
               className={styles["cta-button"]}
             >
-              Get Started
+              Contact Us
             </Link>
           </div>
           <div className={styles["content-right"]}>

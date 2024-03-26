@@ -8,25 +8,25 @@ import project3 from "../../assets/images/project3.png";
 const projects = [
   {
     id: 1,
-    title: "Project 1",
+    title: "Senior Roles",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Securing senior-level positions requires a resume that not only highlights your extensive experience and accomplishments but also showcases your leadership prowess and strategic vision",
     image: project1,
     link: "#",
   },
   {
     id: 2,
-    title: "Project 2",
+    title: "Freshers",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Embarking on your professional journey as a fresher can be both exciting and daunting. With limited work experience, crafting a standout resume that captures the attention of employers is essential for landing your first job.",
     image: project2,
     link: "#",
   },
   {
     id: 3,
-    title: "Project 3",
+    title: "Career Transitioners",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Whether you're changing industries, pursuing a new role, or embarking on an entrepreneurial venture, a well-crafted resume is essential for articulating your transferable skills and positioning yourself as a viable candidate in your target market.",
     image: project3,
     link: "#",
   },

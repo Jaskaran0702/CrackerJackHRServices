@@ -51,7 +51,7 @@ function Newsletter() {
   return (
     <section className={styles.newsletter} id="newsletter">
       <div className={styles.container}>
-        <h2 className={styles.newsletterTitle}>Contact us!</h2>
+        <h2 className={styles.newsletterTitle}>Reach Out!</h2>
         <p className={styles.newsletterDescription}>
         Drop your e-mail below and let’s start a conversation!
         </p>
@@ -88,7 +88,7 @@ function Newsletter() {
           />
           <input
             type="text"
-            placeholder="Message"
+            placeholder="What services do you require?"
             value={formDetails.message}
             className={styles.newsletterInput}
             onChange={(e) => onFormUpdate("message", e.target.value)}
