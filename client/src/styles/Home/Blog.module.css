@@ -1,0 +1,100 @@
+/* 
+   Name: Habibur Rahman
+   Project: React Landing Page
+   Date: October 30, 2023
+   File: Blog.module.css
+*/
+
+/* Blog styling */
+.blog {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Styling for the title */
+.blogTitle {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  font-weight: bold;
+  margin-bottom: 40px;
+  transition: color 0.3s;
+}
+
+/* Blog container */
+.blogPosts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blogCard {
+  flex: 0 0 calc(25% - 20px);
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.blogCard:hover {
+  transform: scale(1.05);
+}
+
+/* Styling for blog post titles */
+.blogPostTitle {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Styling for blog post content */
+.blogPostContent {
+  font-size: 1.2rem;
+  color: #777;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Styling for blog images */
+.blogImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+  .blogCard {
+    flex: 0 0 calc(33.333% - 20px);
+  }
+  .blogPostTitle {
+    font-size: 1.3rem;
+  }
+  .blogPostContent {
+    font-size: 1rem;
+  }
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 480px) {
+  .blogCard {
+    flex: 0 0 calc(100% - 20px);
+  }
+  .blogPostTitle {
+    font-size: 1.2rem;
+  }
+  .blogPostContent {
+    font-size: 1rem;
+  }
+}

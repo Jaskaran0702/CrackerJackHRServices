@@ -1,0 +1,59 @@
+/* 
+   Name: Habibur Rahman
+   Project: React Landing Page
+   Date: October 30, 2023
+   File: global.css
+*/
+
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #142536;
+  overflow-x: hidden;
+}
+
+/* Common style */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+  color: var(--primary-color);
+}
+
+/* Default container class */
+.container {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ScrollToTopButton */
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}

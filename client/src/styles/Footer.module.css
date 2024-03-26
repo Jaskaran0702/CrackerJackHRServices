@@ -1,0 +1,113 @@
+/* 
+   Name: Habibur Rahman
+   Project: React Landing Page
+   Date: October 30, 2023
+   File: Footer.module.css
+*/
+
+/* Footer styling */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 30px;
+  text-align: center;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+
+/* Footer content layout */
+.footerContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Footer section style */
+.footerSection {
+  flex: 1;
+  margin: 0 20px;
+  text-align: left;
+}
+
+/* Footer title style */
+.footerTitle {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Footer information style */
+.footerInfo {
+  font-size: 1.1rem;
+  color: #bbb;
+}
+
+/* Social media icons style */
+.socialIcons {
+  display: flex;
+}
+
+.iconLink {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.iconLink:hover {
+  color: #0074d9;
+}
+
+/* Footer links style */
+.footerLinks {
+  list-style: none;
+  padding: 0;
+}
+
+.footerLinks li {
+  margin-bottom: 10px;
+}
+
+.footerLinks a {
+  font-size: 1.2rem;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footerLinks a:hover {
+  color: #0074d9;
+}
+
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+  .footerContent {
+    flex-direction: column;
+  }
+  .footerSection {
+    margin: 20px 0;
+  }
+  .footerTitle {
+    font-size: 1.8rem;
+  }
+  .footerInfo {
+    font-size: 1rem;
+  }
+  .iconLink {
+    font-size: 1.3rem;
+  }
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 480px) {
+  .footerTitle {
+    font-size: 1.5rem;
+  }
+  .footerInfo {
+    font-size: 1rem;
+  }
+  .iconLink {
+    font-size: 1.2rem;
+  }
+}

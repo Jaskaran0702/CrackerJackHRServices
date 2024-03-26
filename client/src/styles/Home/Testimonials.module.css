@@ -1,0 +1,111 @@
+/* 
+   Name: Habibur Rahman
+   Project: React Landing Page
+   Date: October 30, 2023
+   File: Testimonials.module.css
+*/
+
+/* Testimonials styling */
+.testimonials {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Styling for the title */
+.testimonialsTitle {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* Styling for the testimonial container */
+.testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Styling for the navigation buttons */
+.testimonialButton {
+  font-size: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.testimonialButton:hover {
+  color: #0074d9;
+}
+
+/* Styling for the testimonial content */
+.testimonialContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  transition: opacity 0.3s;
+}
+
+.testimonialImage img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+.testimonialText {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 20px;
+  transition: color 0.3s;
+}
+
+.testimonialAuthor {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #555;
+  transition: color 0.3s;
+}
+
+/* Additional styling for a responsive design */
+@media (max-width: 768px) {
+  .testimonial {
+    flex-direction: column;
+  }
+
+  .testimonialButton {
+    font-size: 1.5rem;
+  }
+
+  .testimonialImage img {
+    max-width: 100px;
+  }
+
+  .testimonialContent {
+    padding: 10px;
+  }
+
+  .testimonialText {
+    font-size: 1.2rem;
+  }
+
+  .testimonialAuthor {
+    font-size: 1rem;
+  }
+}

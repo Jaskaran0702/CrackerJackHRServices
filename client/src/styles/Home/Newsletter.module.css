@@ -1,0 +1,115 @@
+/* 
+   Name: Habibur Rahman
+   Project: React Landing Page
+   Date: October 30, 2023
+   File: Newsletter.module.css
+*/
+
+/* Newsletter styling */
+.newsletter {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 80px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Styling for the title */
+.newsletterTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Styling for the description */
+.newsletterDescription {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+/* Newsletter container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Styling for the newsletter form */
+.newsletterForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for the newsletter input field */
+.newsletterInput {
+  width: 85%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: #555;
+  background-color: #f0f0f0;
+  outline: none;
+}
+
+/* Styling for the newsletter subscribe button */
+.newsletterButton {
+  background-color: #fff;
+  color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.newsletterButton:hover {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.newsletterName{
+  display: flex;
+  gap: 30px
+  /* flex-direction: column; */
+}
+
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+  .newsletterTitle {
+    font-size: 2.2rem;
+  }
+  .newsletterDescription {
+    font-size: 1.2rem;
+  }
+  .newsletterInput {
+    font-size: 1.1rem;
+    padding: 12px;
+  }
+  .newsletterButton {
+    padding: 12px 20px;
+    font-size: 1.2rem;
+  }
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 480px) {
+  .newsletterTitle {
+    font-size: 1.8rem;
+  }
+  .newsletterDescription {
+    font-size: 1.1rem;
+  }
+  .newsletterInput {
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .newsletterButton {
+    padding: 10px 15px;
+    font-size: 1.1rem;
+  }
+}
